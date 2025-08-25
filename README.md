@@ -32,8 +32,8 @@ php :ngôn ngữ lập trình sever-side
 1.3 cấu trúc điều khiển
 
 - if/ else dùng để rẽ nhánh theo điều kiện 
-- toán tử logic: && , ||, !
-- vòng lặp: for , while, do...while
+- toán tử logic: && , ||, !, ....
+- vòng lặp: for , while, do...while,..
 
 1.4 vai trò php 
 
