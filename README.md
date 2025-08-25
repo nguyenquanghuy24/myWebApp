@@ -8,6 +8,7 @@ MODULE 1
 php :ngôn ngữ lập trình sever-side 
 - dùng để tạo web động: hiển thị bài viết, kết nối dữ liệu.
 - dễ học , có một cộng đồng lớn hỗ trợ
+
 1.2 Cú pháp php 
 
 - đóng mở thẻ : 
