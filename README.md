@@ -33,8 +33,22 @@ php :ngôn ngữ lập trình sever-side
 
 - if/ else dùng để rẽ nhánh theo điều kiện 
 - toán tử logic: && , ||, !, ....
-- vòng lặp: for , while, do...while,..
+- vòng lặp: for , while, do...while,.. :
+```php
+for ($i = 0; $i < 5; $i++) {
+    echo $i;
+}
 
+while ($i < 5) {
+    echo $i;
+    $i++;
+}
+
+do {
+    echo $i;
+    $i++;
+} while ($i < 5);
+```
 1.4 Hàm trong PHP
 
 Hàm giúp tái sử dụng code, chia nhỏ chương trình.
@@ -59,3 +73,27 @@ Hàm giúp tái sử dụng code, chia nhỏ chương trình.
 - route group
 - name route
 - middleware 
+
+Phân tích Project Framework
+
+Trong dự án thực tế, PHP đóng vai trò xử lý các nghiệp vụ phía server, còn Laravel mang lại một bộ công cụ giúp tổ chức code khoa học hơn. Laravel hoạt động theo mô hình MVC (Model – View – Controller):
+
+Model: quản lý và tương tác với cơ sở dữ liệu.
+
+View: giao diện hiển thị cho người dùng (sử dụng Blade Template).
+
+Controller: xử lý logic, điều hướng dữ liệu giữa Model và View.
+
+Laravel cung cấp:
+
+Eloquent ORM: làm việc với CSDL bằng cú pháp trực quan thay cho SQL thuần.
+
+Artisan CLI: tạo nhanh model, controller, migration.
+
+Blade Template: quản lý giao diện dễ đọc và tách biệt với logic.
+
+Route Group & Name Route: tổ chức tuyến đường rõ ràng, dễ bảo trì.
+
+Middleware: xử lý request/response trung gian, thường dùng cho xác thực và phân quyền.
+
+Nhờ framework, project sẽ có cấu trúc rõ ràng, dễ bảo trì, dễ mở rộng, giảm rủi ro bảo mật và tăng tốc độ phát triển.
