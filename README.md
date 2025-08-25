@@ -35,14 +35,24 @@ php :ngôn ngữ lập trình sever-side
 - toán tử logic: && , ||, !, ....
 - vòng lặp: for , while, do...while,..
 
-1.4 vai trò php 
+1.4 Hàm trong PHP
+
+Hàm giúp tái sử dụng code, chia nhỏ chương trình.
+
+Được khai báo bằng từ khóa function:
+
+`function sayHello($name) {`<br>
+    `return "Hello, " . $name;`<br>
+`}`<br>
+
+1.5 vai trò php 
 
 - xử lý sever 
 - làm nội dung động 
 - bảo mật & xác thực 
 - tích hợp flamework như laravel
 
-1.5 laravel 
+1.6 laravel 
 - eloquent ORM: cú pháp trực quan để làm với CSDL 
 - Artisan CLI 
 - blade template
